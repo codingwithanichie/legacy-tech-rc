@@ -1,0 +1,25 @@
+@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
+
+
+
+.header-custom {
+    font-size: 1.5rem;
+}
+
+.image-custom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (width > 900px) {
+    .image.main {
+        
+    }
+}
+
+.h4-custom {
+    display: block;
+}

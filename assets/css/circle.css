@@ -1,0 +1,64 @@
+@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
+
+.circle-house {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 20px;
+}
+
+.circle {
+    height: 25px;
+    width: 250px;
+    /* background-color: #445069; */
+    border-radius: 45px;
+    margin-bottom: 20px;
+}
+
+/* .six {
+    flex-grow: 1;
+    background-color: #445069;
+} */
+
+/* .circle-text-special {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-size: 15pt;
+	font-weight: 300;
+    text-align: center;
+    letter-spacing: 0.025em;
+	line-height: 1.65;
+    
+} */
+
+@media (width < 900px) {
+    .circle-text-special {
+        margin-top: 5%;
+    }
+    .circle-house {
+        justify-content: center;
+    }
+}
+
+
+.circle-text {
+    color: #ffffff;
+    /* background-color: bisque; */
+    /* margin-top: 5%; */
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-size: 15pt;
+	font-weight: 200;
+    text-align: center;
+    letter-spacing: 0.025em;
+	line-height: 1.65;
+}
+
+.header-custom {
+    font-size: 1.5rem;
+}
