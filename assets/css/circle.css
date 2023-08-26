@@ -3,7 +3,8 @@
 
 .circle-house {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    /* justify-content: space-between; */
     flex-wrap: wrap;
     gap: 1rem;
     margin-bottom: 20px;
@@ -11,7 +12,7 @@
 
 .circle {
     height: 25px;
-    width: 250px;
+    width: 50px;
     /* background-color: #445069; */
     border-radius: 45px;
     margin-bottom: 20px;
@@ -35,13 +36,16 @@
     
 } */
 
-@media (width < 900px) {
-    .circle-text-special {
+@media (width > 900px) {
+    /* .circle-text-special {
         margin-top: 5%;
-    }
+    } */
     .circle-house {
-        justify-content: center;
+        flex-direction: row;
+        justify-content: space-around;
+        
     }
+    
 }
 
 
